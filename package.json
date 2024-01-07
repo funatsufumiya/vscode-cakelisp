@@ -1,11 +1,11 @@
 {
-	"name": "vscode-janet",
-	"displayName": "Janet",
-	"description": "Janet language support for Visual Studio Code",
+	"name": "vscode-cakelisp",
+	"displayName": "Cakelisp",
+	"description": "Cakelisp language support for Visual Studio Code",
 	"icon": "images/icon.png",
-	"version": "0.0.2",
-	"publisher": "janet-lang",
-	"repository": "https://github.com/janet-lang/vscode-janet",
+	"version": "0.0.1",
+	"publisher": "funatsufumiya",
+	"repository": "https://github.com/funatsufumiya/vscode-cakelisp",
 	"engines": {
 		"vscode": "^1.34.0"
 	},
@@ -13,60 +13,32 @@
 		"Programming Languages"
 	],
 	"activationEvents": [
-		"onCommand:janet.startREPL",
-		"onCommand:janet.eval",
-		"onCommand:janet.evalFile",
-		"onCommand:janet.formatFile"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"languages": [
 			{
-				"id": "janet",
+				"id": "cakelisp",
 				"aliases": [
-					"Janet",
-					"janet"
+					"Cakelisp",
+					"cakelisp"
 				],
 				"extensions": [
-					".janet"
+					".cake"
 				],
-				"configuration": "./janet.configuration.json"
+				"configuration": "./cakelisp.configuration.json"
 			}
 		],
 		"grammars": [
 			{
-				"language": "janet",
-				"scopeName": "source.janet",
-				"path": "./syntaxes/janet.tmLanguage"
+				"language": "cakelisp",
+				"scopeName": "source.cakelisp",
+				"path": "./syntaxes/cakelisp.tmLanguage.json"
 			}
 		],
 		"commands": [
-			{
-				"command": "janet.startREPL",
-				"title": "Janet: Start REPL"
-			},
-			{
-				"command": "janet.eval",
-				"title": "Janet: Evaluate expression"
-			},
-			{
-				"command": "janet.evalFile",
-				"title": "Janet: Evaluate file"
-			},
-			{
-				"command": "janet.formatFile",
-				"title": "Janet: Format file"
-			}
 		],
 		"keybindings": [
-			{
-				"command": "janet.eval",
-				"key": "alt+e"
-			},
-			{
-				"command": "janet.evalFile",
-				"key": "alt+l"
-			}
 		]
 	},
 	"scripts": {
@@ -76,7 +48,7 @@
 		"watch": "tsc -watch -p ./"
 	},
 	"devDependencies": {
-		"@types/node": "^12.12.0",
+		"@types/node": "^18.16.15",
 		"@types/vscode": "^1.34.0",
 		"@typescript-eslint/eslint-plugin": "^4.16.0",
 		"@typescript-eslint/parser": "^4.16.0",

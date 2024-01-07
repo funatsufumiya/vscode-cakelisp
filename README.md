@@ -1,4 +1,4 @@
-# Janet language support for Visual Studio Code
+# Cakelisp language support for Visual Studio Code
 
 ## Features
 
@@ -15,26 +15,26 @@ This extension is not published yet. To install proceed to local install section
 # First, make sure you have Node.js version 14 or greater installed. 
 
 # Clone the extension.
-git clone https://github.com/janet-lang/vscode-janet.git
-cd vscode-janet
+git clone https://github.com/funatsufumiya/vscode-cakelisp.git
+cd vscode-cakelisp
 
-# Install vscode-janet dependencies.
+# Install vscode-cakelisp dependencies.
 npm install
 
 # Generate the vscode extension (VSIX) file using vsce. 
 npx vsce package
 
 # Install the extension.
-code --install-extension vscode-janet-0.0.2.vsix
+code --install-extension vscode-cakelisp-0.0.1.vsix
 
 # Finally reload the vscode window (cmd + shift + P > Developer: Reload Window).
 ```
 
-Alternatively you can clone the extension right into vscode's extention directory. This is easier, but can be unreliable as vscode will sometimes clean up the extension directory and remove vscode-janet.
+Alternatively you can clone the extension right into vscode's extention directory. This is easier, but can be unreliable as vscode will sometimes clean up the extension directory and remove vscode-cakelisp.
 ```
 # Clone the extension.
 cd ~/.vscode/extensions
-git clone https://github.com/janet-lang/vscode-janet.git
+git clone https://github.com/funatsufumiya/vscode-cakelisp.git
 
 # Force vscode to regenerate the extensions.json file.
 mv extensions.json /tmp/ 

@@ -63,3 +63,7 @@ $ mv extensions.json /tmp/
 ## Limitations and footnotes
 
 To customize keywords, such as macros or function names of C/C++, recommend local installation modifying `syntaxes/cakelisp.tmLanguage.json`.
+
+## Acknowledgements
+
+This repository was created as a fork of [janet-lang/vscode-janet](https://github.com/janet-lang/vscode-janet).

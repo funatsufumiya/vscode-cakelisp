@@ -1,5 +1,9 @@
 # Cakelisp language support for Visual Studio Code
 
+## Screenshots
+
+![screenshot](screenshots/vscode-cakelisp-screenshot.png)
+
 ## Features
 
 - Syntax highlighting

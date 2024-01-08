@@ -60,7 +60,7 @@ $ mv extensions.json /tmp/
 	- Start a task `npm: watch` to compile the code
 	- Run the extension in a new VS Code window
 
-## Limitations and footnotes
+## Limitations (How to customize)
 
 To customize keywords, such as macros or function names of C/C++, recommend local installation modifying `syntaxes/cakelisp.tmLanguage.json`.
 

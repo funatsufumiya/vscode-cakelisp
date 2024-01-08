@@ -1,5 +1,7 @@
 # Cakelisp language support for Visual Studio Code
 
+[![marketplace-badge](https://img.shields.io/visual-studio-marketplace/v/funatsu-fumiya.vscode-cakelisp?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=funatsu-fumiya.vscode-cakelisp)
+
 ## Screenshots
 
 ![screenshot](screenshots/vscode-cakelisp-screenshot.png)
@@ -8,9 +10,9 @@
 
 - Syntax highlighting
 
-## Notes
+## Install from Marketplace
 
-This extension is not published yet. To install proceed to local install section.
+https://marketplace.visualstudio.com/items?itemName=funatsu-fumiya.vscode-cakelisp [![marketplace-badge](https://img.shields.io/visual-studio-marketplace/v/funatsu-fumiya.vscode-cakelisp?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=funatsu-fumiya.vscode-cakelisp)
 
 ## Local install
 ```bash

@@ -4,7 +4,7 @@
 	"description": "Cakelisp language support for Visual Studio Code",
 	"icon": "images/icon.png",
 	"version": "0.0.1",
-	"publisher": "funatsufumiya",
+	"publisher": "funatsu-fumiya",
 	"repository": "https://github.com/funatsufumiya/vscode-cakelisp",
 	"engines": {
 		"vscode": "^1.34.0"

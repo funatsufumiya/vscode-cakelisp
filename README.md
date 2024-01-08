@@ -14,7 +14,7 @@ This extension is not published yet. To install proceed to local install section
 
 # Clone the extension.
 $ git clone https://github.com/funatsufumiya/vscode-cakelisp.git
-cd vscode-cakelisp
+$ cd vscode-cakelisp
 
 # Install vscode-cakelisp dependencies.
 $ npm install

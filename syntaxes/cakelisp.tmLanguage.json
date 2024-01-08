@@ -30,10 +30,10 @@
           "include": "#readermac"
         },
         {
-          "include": "#string"
+          "include": "#herestring"
         },
         {
-          "include": "#longstring"
+          "include": "#string"
         },
         {
           "include": "#literal"
@@ -165,13 +165,13 @@
         "begin": "(@?')",
         "beginCaptures": {
           "1": {
-            "name": "punctuation.definition.string.single.begin.cakelisp"
+            "name": "punctuation.definition.string.begin.cakelisp"
           }
         },
         "end": "(')|(\\n)",
         "endCaptures": {
           "1": {
-            "name": "punctuation.definition.string.single.end.cakelisp"
+            "name": "punctuation.definition.string.end.cakelisp"
           },
           "2": {
             "name": "invalid.illegal.newline.cakelisp"
@@ -185,24 +185,27 @@
           }
         ]
       },
-    "longstring": {
-      "begin": "(@?)(`+)",
-      "beginCaptures": {
-        "1": {
-          "name": "punctuation.definition.string.begin.cakelisp"
+      "herestring": {
+        "begin": "(@?\\#\")",
+        "beginCaptures": {
+          "1": {
+            "name": "punctuation.definition.string.begin.cakelisp"
+          }
         },
-        "2": {
-          "name": "punctuation.definition.string.begin.cakelisp"
-        }
+        "end": "(\"\\#)",
+        "endCaptures": {
+          "1": {
+            "name": "punctuation.definition.string.end.cakelisp"
+          }
+        },
+        "name": "string.quoted.triple.cakelisp",
+        "patterns": [
+          {
+            "match": "(\\\\[nevr0zft\"\\\\']|\\\\x[0-9a-fA-F]{2}|\\\\u[0-9a-fA-F]{4}|\\\\U[0-9a-fA-F]{6})",
+            "name": "constant.character.escape.cakelisp"
+          }
+        ]
       },
-      "end": "\\2",
-      "endCaptures": {
-        "1": {
-          "name": "punctuation.definition.string.end.cakelisp"
-        }
-      },
-      "name": "string.quoted.triple.cakelisp"
-    },
     "nomatch": {
       "match": "\\S+",
       "name": "invalid.illegal.cakelisp"

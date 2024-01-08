@@ -71,7 +71,7 @@
       "name": "comment.line.cakelisp"
     },
     "braces": {
-      "begin": "(@?{)",
+      "begin": "({)",
       "captures": {
         "1": {
           "name": "punctuation.definition.braces.end.cakelisp"
@@ -85,7 +85,7 @@
       ]
     },
     "brackets": {
-      "begin": "(@?\\[)",
+      "begin": "(\\[)",
       "captures": {
         "1": {
           "name": "punctuation.definition.brackets.end.cakelisp"
@@ -99,7 +99,7 @@
       ]
     },
     "parens": {
-      "begin": "(@?\\()",
+      "begin": "(\\()",
       "captures": {
         "1": {
           "name": "punctuation.definition.parens.end.cakelisp"
@@ -133,7 +133,7 @@
       "name": "constant.numeric.hex.cakelisp"
     },
     "dec-number": {
-      "match": "(?<![\\.:\\w_\\-=!@\\$%^&?/<>*])[-+]?([_\\d]+|[_\\d]+\\.[_\\d]*|\\.[_\\d]+)([eE&][+-]?[\\d]+)?(?![\\.:\\w_\\-=!@\\$%^&?/<>*])",
+      "match": "(?<![\\.:\\w_\\-=!@\\$%^&?/<>*])[-+]?([_\\d]+|[_\\d]+\\.[_\\d]*|\\.[_\\d]+)((?:[eE&][+-]?[\\d]+)|[f])?(?![\\.:\\w_\\-=!@\\$%^&?/<>*])",
       "name": "constant.numeric.decimal.cakelisp"
     },
     "r-number": {
@@ -141,7 +141,7 @@
       "name": "constant.numeric.decimal.cakelisp"
     },
     "string": {
-      "begin": "(@?\")",
+      "begin": "(\")",
       "beginCaptures": {
         "1": {
           "name": "punctuation.definition.string.begin.cakelisp"
@@ -162,7 +162,7 @@
       ]
     },
     "singlestring": {
-        "begin": "(@?')",
+        "begin": "(')",
         "beginCaptures": {
           "1": {
             "name": "punctuation.definition.string.begin.cakelisp"
@@ -186,7 +186,7 @@
         ]
       },
       "herestring": {
-        "begin": "(@?\\#\")",
+        "begin": "(\\#\")",
         "beginCaptures": {
           "1": {
             "name": "punctuation.definition.string.begin.cakelisp"

@@ -3,8 +3,6 @@
 ## Features
 
 - Syntax highlighting
-- Eval expression ```alt+e```
-- Eval file ```alt+l```
 
 ## Notes
 

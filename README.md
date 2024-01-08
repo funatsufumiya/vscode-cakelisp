@@ -2,6 +2,8 @@
 
 [![marketplace-badge](https://img.shields.io/visual-studio-marketplace/v/funatsu-fumiya.vscode-cakelisp?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=funatsu-fumiya.vscode-cakelisp)
 
+Unofficial syntax highlighting support for [Cakelisp](https://macoy.me/code/macoy/cakelisp) in Visual Studio Code.
+
 ## Screenshots
 
 ![screenshot](screenshots/vscode-cakelisp-screenshot.png)

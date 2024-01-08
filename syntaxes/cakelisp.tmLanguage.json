@@ -118,8 +118,8 @@
       "name": "keyword.control.cakelisp"
     },
     "keysym": {
-      "match": "(?<![\\.:\\w_\\-=!@\\$%^&?/<>*]):[\\.:\\w_\\-=!@\\$%^&?/<>*]*",
-      "name": "constant.keyword.cakelisp"
+      "match": "(?<![\\.:\\w_\\-=!@\\$%^&?/<>*])[:'][\\.:\\w_\\-=!@\\$%^&?/<>*]*",
+      "name": "constant.other.keyword.cakelisp"
     },
     "symbol": {
       "match": "(?<![\\.:\\w_\\-=!@\\$%^&?/<>*])[\\.a-zA-Z_\\-=!@\\$%^&?/<>*][\\.:\\w_\\-=!@\\$%^&?/<>*]*",

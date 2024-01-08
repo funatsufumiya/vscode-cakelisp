@@ -1,4 +1,4 @@
-# Cakelisp language support for Visual Studio Code
+# Cakelisp language support for Visual Studio Code (Unofficial)
 
 [![marketplace-badge](https://img.shields.io/visual-studio-marketplace/v/funatsu-fumiya.vscode-cakelisp?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=funatsu-fumiya.vscode-cakelisp)
 

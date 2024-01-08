@@ -59,3 +59,7 @@ $ mv extensions.json /tmp/
 - Run the `Run Extension` target in the Debug View in VS Code. This will:
 	- Start a task `npm: watch` to compile the code
 	- Run the extension in a new VS Code window
+
+## Limitations and footnotes
+
+To customize keywords, such as macros or function names of C/C++, recommend local installation modifying `syntaxes/cakelisp.tmLanguage.json`.

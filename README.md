@@ -66,4 +66,4 @@ To customize keywords, such as macros or function names of C/C++, recommend loca
 
 ## Acknowledgements
 
-This repository was created as a fork of [janet-lang/vscode-janet](https://github.com/janet-lang/vscode-janet).
+This repository was created as a fork from [janet-lang/vscode-janet](https://github.com/janet-lang/vscode-janet) at [commit 0225a87](https://github.com/janet-lang/vscode-janet/commit/0225a87fb8c75d9dec024d592f2bdcf74f366e5e).
